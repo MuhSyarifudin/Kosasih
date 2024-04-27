@@ -1,0 +1,80 @@
+:root{
+    --teal: #2ec1ac;
+    -teal_hover: #279e8c;
+}
+
+* {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .h-font {
+            font-family: 'Merienda', cursive;
+        }
+
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+        .custom-bg {
+            background-color: var(--teal);
+            border: 1px solid var(--teal);
+        }
+
+        .custom-bg:hover {
+            background-color: var(--teal_hover);
+            border-color: var(--teal_hover);
+        }
+
+        .h-line{
+            width: 150px;
+            margin: 0 auto;
+            height: 1.7px;
+        }
+
+        .pop:hover{
+            border-top-color: var(--teal) !important;
+            transform: scale(1.03);
+            transition: all 0.3s;
+        }
+                    /* Gaya untuk tampilan dropdown */
+                    .dropdown-menu {
+                        background-color: #050505;
+                        /* Warna latar belakang */
+                        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                        /* Efek bayangan */
+                        border: none;
+                        /* Hapus border */
+                        border-radius: 0;
+                        /* Hapus sudut bulat */
+                        }
+
+                        .dropdown-menu li {
+                        padding: 10px;
+                        /* Ruang di dalam tautan dropdown */
+                        }
+
+                        .dropdown-menu li a {
+                        color: #333;
+                        /* Warna teks */
+                        font-size: 14px;
+                        /* Ukuran font */
+
+                        }
+                        .dropdown-menu li a:hover {
+                        background-color: #ddd;
+                        /* Warna latar belakang saat dihover */
+                        color: #333;
+                        /* Warna teks saat dihover */
+                        }
+
+
+
+
